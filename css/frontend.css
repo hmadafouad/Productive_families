@@ -1,0 +1,238 @@
+body{
+	font-family: serif;
+	background-color: #E0E0E0;
+size: 100px;
+}
+
+
+/* Login Page */
+.login-page form input{
+	margin-bottom: 12px;
+	max-width: 300px;
+}
+.text-center{
+margin-top: 30px;
+}
+.login-page .login{
+	margin-top: 50px;
+	margin-left: 420px;
+}
+.login-page .signup{
+	margin-top: 50px;
+	margin-left: 420px;
+}
+.input-container{
+	position: relative;
+}
+.login-page .selected{
+	color: red;
+}
+.login-page h1{
+	color: #C0C0C0;
+}
+.login-page h1 span{
+	cursor: pointer;
+}
+.login-page .signup{
+	display: none;
+}
+.login-page [data-class="login"].selected{
+	color: #337A87;
+}
+.login-page [data-class="signup"].selected{
+	color: #5cb85c;
+}
+
+/* Home Page */
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+}
+.cat{
+	padding: 70px;
+	padding-left: 240px;
+
+}
+.rows{
+	padding-left: 200px;
+	padding-top: 35px;
+}
+
+h1{
+	font-size: 50px;
+	color: black;
+}
+a{
+	color:black;
+}
+a:hover{
+	text-decoration: none;
+	color:black;
+}
+.acce{
+	margin-left: -55px;
+}
+.title{
+	margin-left: -90px;
+}
+.knit{
+	padding-left: 25px;
+}
+.w-100{
+	padding-top: 20px;
+}
+.cat a{
+	color: #616161
+}
+
+.cat  a:hover{
+text-decoration: none;
+}
+
+.center{
+	text-align: center;
+	padding-right: 130px;
+}
+.cen{
+	display: inline-block;
+}
+footer {
+	background-color: black;
+}
+.footer-copyright{
+	color: white;
+}
+
+/*Animation*/
+a:hover img{
+	animation: heartbeat .8s infinite linear;
+}
+@keyframes heartbeat{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(.8);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+
+/* Items Page */
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.items{
+	margin-top: 15px;
+	
+	
+}
+
+/* My Items */
+.add{
+	width: 200px;
+	height: 50px;
+}
+i.edit{
+	padding-top: 8px;
+	font-size: 20px;
+}
+/* Profile Page */
+
+.info{
+
+	font-size: 22px;
+}
+
+
+.btn{
+	margin-bottom:  30px;
+	margin-top:  20px;
+	font-size: 15px;
+	position: relative;
+}
+.btn:before,
+.btn:after{
+	content: '';
+	width: 20px;
+	height: 3px;
+	background-color: inherit;
+	position: absolute;
+	transition: .3s;
+}
+.btn:before{
+	left: 0px;
+	top: -5px;
+}
+.btn:after{
+	right: 0px;
+	bottom: -5px;
+}
+.btn:hover:before{
+	width: 100%;
+}
+.btn:hover:after{
+	width: 100%;
+}
+
+
+.navbar .collapse{
+
+	font-size: 20px;
+}
+.item-box .caption{
+	
+	font-size: 15px;
+}
+.items a{
+	color: black;
+}
+
+.items  a:hover{
+text-decoration: none;
+}
+
+/* Filter */
+.color{
+	font-size: 20px;
+border: 1px solid #ccc;
+padding: 10px;
+background-color: #BDBDBD;
+border-radius: 10px;
+margin-top: 10px;
+padding-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+.search{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+/* Display Item Page */
+.disp{
+	padding-top: 10px;
+}
+.info{
+	padding-top: 20px;
+}
+.image{
+	width: 200px;
+	height: 200px;
+}
+.cont{
+	padding-top: 20px;
+}
+.star{
+	color: #FFCA28;
+}
+.rate{
+	padding-left: 15px;
+}
